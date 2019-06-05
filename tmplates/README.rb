@@ -15,6 +15,17 @@ n.times do |i|
     puts i
 end
 
+## each
+arr = ['a','b','c']
+arr.each do |a|
+    puts a
+end
+
+## ループを中断 & 次のループ
+break
+next
+
+
 
 # 分岐
 if conditionA then
@@ -35,3 +46,7 @@ arr = str.split('')
 arr = [1,2,3,4]
 str = arr.join(',')
 # => "1,2,3,4"
+
+
+# 処理をやめる
+exit
