@@ -8,6 +8,9 @@ H, W = gets.split.map(&:to_i)
 S = gets
 arr = S.times.map { gets.chomp }
 
+# n回連続した入力を配列に受け取る
+A = n.times.map{gets.to_i}
+
 
 # 繰り返し
 ## indexと一緒にn回繰り返す
