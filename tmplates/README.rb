@@ -12,3 +12,12 @@ n.times do |i|
     puts i
 end
 
+
+# 分岐
+if conditionA then
+    puts('foo')
+elsif conditionB then
+    puts('bar')
+else
+    puts('baz')
+end
