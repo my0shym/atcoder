@@ -4,6 +4,9 @@
 ## 標準入力
 H, W = gets.split.map(&:to_i)
 
+### 文字列の配列にしたいとき
+S = gets
+arr = S.times.map { gets.chomp }
 
 
 # 繰り返し
@@ -21,3 +24,14 @@ elsif conditionB then
 else
     puts('baz')
 end
+
+
+# 型操作
+## 文字列を配列に変換
+str = 'hoge'
+arr = str.split('')
+
+## 配列を文字列に変換
+arr = [1,2,3,4]
+str = arr.join(',')
+# => "1,2,3,4"
