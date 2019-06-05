@@ -5,7 +5,7 @@
 H, W = gets.split.map(&:to_i)
 
 ### 文字列の配列にしたいとき
-S = gets
+S = gets.chomp
 arr = S.times.map { gets.chomp }
 
 # n回連続した入力を配列に受け取る
