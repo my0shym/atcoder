@@ -31,6 +31,7 @@ next
 
 
 # 分岐
+## if文
 if conditionA then
     puts('foo')
 elsif conditionB then
@@ -38,6 +39,12 @@ elsif conditionB then
 else
     puts('baz')
 end
+
+## 三項演算子
+### putsする
+puts a == b ? 'true' : 'false'
+### 代入もできる
+ans = a == b ? 'true' : 'false'
 
 
 # 型操作
